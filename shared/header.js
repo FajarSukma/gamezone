@@ -2,7 +2,7 @@ import React from 'react';
 import {StyleSheet, Text, View } from  'react-native';
 import  { MaterialIcons } from  '@expo/vector-icons';
 
-export default function Header({ navigation, title}) {
+export default function Header({ navigation, title }) {
 
     const openMenu = () => {
         navigation.openDrawer();
@@ -20,7 +20,7 @@ export default function Header({ navigation, title}) {
 
 const styles = StyleSheet.create({
     header:{
-        
+        flex: 1,  
         width: '100%',
         height: '100%',
         flexDirection: 'row',
