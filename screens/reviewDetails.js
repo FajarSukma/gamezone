@@ -34,6 +34,7 @@ const styles = StyleSheet.create({
         paddingTop:16,
         marginTop:16,
         borderTopWidth:1,
+        borderTopColor: '#eee'
     }
 })
 
